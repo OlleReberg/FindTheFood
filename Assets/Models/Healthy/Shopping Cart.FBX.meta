@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 2026f9ab5e539c5488c0b34a4c425493
+guid: a55f1a9a2f35c9343b8246959af043e3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material_001__Tomato_texture_tga
-    second: {fileID: 2100000, guid: 2cbbd23dfd785e6479d0c2c96bfb9e39, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material__Tomato_texture_tga
-    second: {fileID: 2100000, guid: 2a3e86b00ff627c4fb21cb56b2fdca9e, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
