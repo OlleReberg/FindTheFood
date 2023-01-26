@@ -8,8 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material_001__Tomato_texture_tga
-    second: {fileID: 1151844921754575795, guid: fde57c18455cc714ebc3540e98909ac9,
-      type: 3}
+    second: {fileID: 2100000, guid: 2cbbd23dfd785e6479d0c2c96bfb9e39, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

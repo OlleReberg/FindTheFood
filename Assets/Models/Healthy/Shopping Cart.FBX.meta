@@ -1,29 +1,9 @@
 fileFormatVersion: 2
-guid: c2f293293962723439a0ca9109fdb1a5
+guid: a55f1a9a2f35c9343b8246959af043e3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Cherry_02_Cherry_polySurface2Mat
-    second: {fileID: 2100000, guid: 2cbbd23dfd785e6479d0c2c96bfb9e39, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Cherry_Cherry_01_polySurface1Mat
-    second: {fileID: 2100000, guid: 2cbbd23dfd785e6479d0c2c96bfb9e39, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Cherry_pSphere2_Cherry_01Mat
-    second: {fileID: 2100000, guid: 2a3e86b00ff627c4fb21cb56b2fdca9e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: pSphere1_Cherry_02_CherryMat
-    second: {fileID: 2100000, guid: 2a3e86b00ff627c4fb21cb56b2fdca9e, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
