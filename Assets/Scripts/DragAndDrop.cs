@@ -8,6 +8,7 @@ public class DragAndDrop : MonoBehaviour
 {
     Vector3 mousPosition;
     public Image image;
+    public Sprite sprite;
     
     private Vector3 GetMousePos()
     {
@@ -40,6 +41,8 @@ public class DragAndDrop : MonoBehaviour
                 {
                     transform.SetParent(rayHit.transform);
                     transform.position = (rayHit.transform.position);
+                   // image.sprite = sprite;
+                    Debug.Log("Sprite Changed");
                 }
             }
         }
