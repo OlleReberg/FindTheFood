@@ -1165,7 +1165,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2551296056993123369}
   m_Layer: 0
-  m_Name: Middle Section Table
+  m_Name: Display Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
