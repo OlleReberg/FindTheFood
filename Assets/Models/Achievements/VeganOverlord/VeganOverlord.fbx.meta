@@ -3,7 +3,17 @@ guid: ea93d1d9eb05f1c40be0566aae880a3b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Broccoli
+    second: {fileID: 2100000, guid: 15384d2724d4bb54cbbd94abb7bdd3f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BroccoliHolder
+    second: {fileID: 2100000, guid: 4b15e60d09f310140a166a1144d8c9b0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

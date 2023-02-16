@@ -3,7 +3,17 @@ guid: d273181ca27d53b4a8904e24dee45b07
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FruitBowl
+    second: {fileID: 2100000, guid: 996c8208d67f45d4f95f5eb9c130fde2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FruitBowlHolder
+    second: {fileID: 2100000, guid: 56ef47157dff79b4db5d1c4915f87f10, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
