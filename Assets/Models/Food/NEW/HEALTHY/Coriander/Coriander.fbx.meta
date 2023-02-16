@@ -3,7 +3,12 @@ guid: af6acce120bcbf742875fc535e777d99
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coriander
+    second: {fileID: 2100000, guid: b9a6bacbbcebd824c95ccfd1a579d627, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
