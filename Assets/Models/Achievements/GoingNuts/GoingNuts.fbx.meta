@@ -3,7 +3,17 @@ guid: 27d3353c6c18ad44a8f70e880e1995f1
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Peanut
+    second: {fileID: 2100000, guid: b45818d48f1bcf04abbc15fea2f17c10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PeanutHolder
+    second: {fileID: 2100000, guid: d2535ce3c77144c49b8b91997fcb00f2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
