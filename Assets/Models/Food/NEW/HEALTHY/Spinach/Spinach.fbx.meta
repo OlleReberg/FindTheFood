@@ -3,7 +3,12 @@ guid: 245711d793c389e44902d6407a9407e9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: baby-spinach
+    second: {fileID: 2100000, guid: 16f414ff30cf49b4da743b0b2cf6e565, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
