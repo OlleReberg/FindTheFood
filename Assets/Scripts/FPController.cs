@@ -35,7 +35,7 @@ public class FPController : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation, -75f, 75f);
         
         transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
-        orientation.rotation = Quaternion.Euler(0, yRotation, 0);
+        orientation.rotation = Quaternion.Euler(xRotation, yRotation, 0);
         
         PlayerInput();
         Move();
