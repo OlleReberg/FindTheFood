@@ -3,7 +3,12 @@ guid: 7567271881f20a64182226e26043fb1a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parsley 1-650x510
+    second: {fileID: 2100000, guid: 82007ced4e165224aa6e024ac4ff337a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
