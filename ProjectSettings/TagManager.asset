@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Food
   - DropArea
+  - Healthy
   layers:
   - Default
   - TransparentFX
