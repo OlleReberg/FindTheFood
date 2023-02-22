@@ -9,9 +9,10 @@ public class DragAndDrop : MonoBehaviour, ICollectible
 {
     Vector3 mousPosition;
     public Image image;
-    public Sprite sprite;
-    
-    public static event Action OnFoodCollected;
+
+    public static event HandleFoodCollected OnFoodCollected;
+    public delegate void HandleFoodCollected(ItemData itemData);
+    public ItemData foodData;
     
     private Vector3 GetMousePos()
     {
@@ -44,8 +45,6 @@ public class DragAndDrop : MonoBehaviour, ICollectible
                 {
                     transform.SetParent(rayHit.transform);
                     transform.position = (rayHit.transform.position);
-                   // image.sprite = sprite;
-                    Debug.Log("Sprite Changed");
                 }
             }
         }
@@ -54,6 +53,6 @@ public class DragAndDrop : MonoBehaviour, ICollectible
     public void Collect()
     {
         Destroy(gameObject);
-        OnFoodCollected?.Invoke();
+        OnFoodCollected?.Invoke(foodData);
     }
 }
