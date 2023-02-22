@@ -1,14 +1,17 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DragAndDrop : MonoBehaviour
+public class DragAndDrop : MonoBehaviour, ICollectible
 {
     Vector3 mousPosition;
     public Image image;
     public Sprite sprite;
+    
+    public static event Action OnFoodCollected;
     
     private Vector3 GetMousePos()
     {
@@ -47,5 +50,10 @@ public class DragAndDrop : MonoBehaviour
             }
         }
         
+    }
+    public void Collect()
+    {
+        Destroy(gameObject);
+        OnFoodCollected?.Invoke();
     }
 }
