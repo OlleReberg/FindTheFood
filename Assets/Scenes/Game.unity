@@ -4231,7 +4231,7 @@ PrefabInstance:
     - target: {fileID: 531407710531862561, guid: 18ccce8b6a756be41a5837253498b77f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 60
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 531407710531862561, guid: 18ccce8b6a756be41a5837253498b77f,
         type: 3}
@@ -4293,10 +4293,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4901923077757863053, guid: 18ccce8b6a756be41a5837253498b77f,
+    - target: {fileID: 531407710531862588, guid: 18ccce8b6a756be41a5837253498b77f,
         type: 3}
-      propertyPath: inventorySlots.Array.size
-      value: 0
+      propertyPath: m_Spacing.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 531407710531862588, guid: 18ccce8b6a756be41a5837253498b77f,
+        type: 3}
+      propertyPath: m_CellSize.x
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 531407710531862588, guid: 18ccce8b6a756be41a5837253498b77f,
+        type: 3}
+      propertyPath: m_CellSize.y
+      value: 53
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

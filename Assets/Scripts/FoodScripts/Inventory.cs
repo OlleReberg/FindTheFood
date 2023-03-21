@@ -11,6 +11,11 @@ public class Inventory : MonoBehaviour
     //TODO: uncomment this if we want stackable items:
     //private Dictionary<ItemData, InventoryItem> itemDictionary = new Dictionary<ItemData, InventoryItem>();
 
+    private void Start()
+    {
+        OnInventoryChange?.Invoke(inventory);
+    }
+
     private void OnEnable()
     {
         DragAndDrop.OnFoodCollected += Add;

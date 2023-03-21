@@ -9,10 +9,14 @@ namespace MenuScripts
         public GameObject slotPrefab;
         public List<InventorySlot> inventorySlots = new List<InventorySlot>(6);
 
-        private void OnEnable()
+
+        private void Start()
         {
             Inventory.OnInventoryChange += DrawInventory;
+
+            
         }
+
         private void OnDisable()
         {
             Inventory.OnInventoryChange -= DrawInventory;
@@ -30,6 +34,7 @@ namespace MenuScripts
         void DrawInventory(List<InventoryItem> inventory)
         {
             ResetInventory();
+
             for (int i = 0; i < inventorySlots.Capacity; i++)
             {
                 CreateInventorySlot();
