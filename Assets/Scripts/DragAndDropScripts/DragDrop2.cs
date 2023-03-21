@@ -8,6 +8,7 @@ public class DragDrop2 : MonoBehaviour
 {
     private Vector3 offset;
     public string destinationTag = "DropArea";
+    
 
     private void OnMouseDown()
     {
