@@ -430,12 +430,12 @@ PrefabInstance:
     - target: {fileID: 4139522661777474450, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.68
+      value: 0.04
       objectReference: {fileID: 0}
     - target: {fileID: 4139522661777474450, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.99
+      value: 0.19
       objectReference: {fileID: 0}
     - target: {fileID: 4139522661777474450, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
@@ -486,6 +486,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Burger
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373868905878808833, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Unhealthy
       objectReference: {fileID: 0}
     - target: {fileID: 8879417575254096475, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
@@ -1242,7 +1247,7 @@ GameObject:
   - component: {fileID: 675991545}
   m_Layer: 0
   m_Name: Apple
-  m_TagString: Untagged
+  m_TagString: Healthy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1260,7 +1265,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 0}
-  foodData: {fileID: 0}
+  foodData: {fileID: 11400000, guid: f46e466dd4c98aa4cb8708ff032be7b2, type: 2}
+  startPosition: {x: 0, y: 0, z: 0}
+  startRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!4 &675991543
 Transform:
   m_ObjectHideFlags: 0
@@ -1655,6 +1662,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: IceCream
       objectReference: {fileID: 0}
+    - target: {fileID: 6373868905878808833, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Unhealthy
+      objectReference: {fileID: 0}
     - target: {fileID: 8879417575254096475, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
       propertyPath: image
@@ -1793,6 +1805,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: To Mah Toes
       objectReference: {fileID: 0}
+    - target: {fileID: 6373868905878808833, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Healthy
+      objectReference: {fileID: 0}
     - target: {fileID: 8879417575254096475, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
       propertyPath: image
@@ -1804,6 +1821,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a102176ffe6e2ac469d313c9d9c5a388,
         type: 3}
+    - target: {fileID: 8879417575254096475, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: foodData
+      value: 
+      objectReference: {fileID: 11400000, guid: 502f682b9eaba3740a0aaaf3f73f791c,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2724,7 +2747,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 25.599976, y: -24.099998}
+  m_AnchoredPosition: {x: 25.599976, y: -24.099976}
   m_SizeDelta: {x: 31, y: 32}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1387552993
@@ -3381,6 +3404,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FrenchFries
       objectReference: {fileID: 0}
+    - target: {fileID: 6373868905878808833, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Unhealthy
+      objectReference: {fileID: 0}
     - target: {fileID: 8879417575254096475, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
       propertyPath: image
@@ -3392,6 +3420,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a102176ffe6e2ac469d313c9d9c5a388,
         type: 3}
+    - target: {fileID: 8879417575254096475, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: foodData
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -3585,6 +3618,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chips
+      objectReference: {fileID: 0}
+    - target: {fileID: 6373868905878808833, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Unhealthy
       objectReference: {fileID: 0}
     - target: {fileID: 8879417575254096475, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
@@ -4037,7 +4075,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -3.2607727}
+  m_AnchoredPosition: {x: 0, y: -3.2608032}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2094357296
@@ -4389,6 +4427,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: a102176ffe6e2ac469d313c9d9c5a388,
         type: 3}
+    - target: {fileID: 8879417575254096475, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: foodData
+      value: 
+      objectReference: {fileID: 11400000, guid: dc1c73a9181dd38449cf14e4a05aa0da,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
