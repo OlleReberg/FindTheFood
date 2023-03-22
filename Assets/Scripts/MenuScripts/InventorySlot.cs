@@ -8,6 +8,7 @@ public class InventorySlot : MonoBehaviour
 {
     public Image icon;
     public TextMeshProUGUI labelText;
+    public int slotID = 0;
 
     public void ClearSlot()
     {
@@ -25,8 +26,8 @@ public class InventorySlot : MonoBehaviour
 
         icon.enabled = true;
         labelText.enabled = true;
-
         icon.sprite = item.itemData.icon;
         labelText.text = item.itemData.displayName;
+        slotID++;
     }
 }

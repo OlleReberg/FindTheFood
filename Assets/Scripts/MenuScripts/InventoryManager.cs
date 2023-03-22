@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 
 namespace MenuScripts
@@ -8,13 +9,13 @@ namespace MenuScripts
     {
         public GameObject slotPrefab;
         public List<InventorySlot> inventorySlots = new List<InventorySlot>(6);
-
+        public InventorySlot invSlot;
+        public RecipeSO recipe;
 
         private void Start()
         {
             Inventory.OnInventoryChange += DrawInventory;
 
-            
         }
 
         private void OnDisable()
@@ -43,6 +44,12 @@ namespace MenuScripts
             for (int i = 0; i < inventory.Count; i++)
             {
                 inventorySlots[i].DrawSlot(inventory[i]);
+                invSlot.slotID++;
+            }
+
+            foreach (var item in recipe.items)
+            {
+                //add to ui i element
             }
         }
 

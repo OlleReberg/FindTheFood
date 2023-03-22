@@ -12,8 +12,8 @@ public class DragAndDrop : MonoBehaviour, ICollectible
     public Image image;
 
     public static event HandleFoodCollected OnFoodCollected;
-    public delegate void HandleFoodCollected(ItemData itemData);
-    public ItemData foodData;
+    public delegate void HandleFoodCollected(ItemDataSO itemData);
+    public ItemDataSO foodData;
     public Vector3 startPosition;
     public Quaternion startRotation;
 
