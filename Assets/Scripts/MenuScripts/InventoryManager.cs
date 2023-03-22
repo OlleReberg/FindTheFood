@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using DefaultNamespace;
 using UnityEngine;
 
@@ -9,8 +10,9 @@ namespace MenuScripts
     {
         public GameObject slotPrefab;
         public List<InventorySlot> inventorySlots = new List<InventorySlot>(6);
-        public InventorySlot invSlot;
+        private InventorySlot invSlot;
         public RecipeSO recipe;
+        
 
         private void Start()
         {
@@ -36,21 +38,18 @@ namespace MenuScripts
         {
             ResetInventory();
 
-            for (int i = 0; i < recipe.items.Length; i++)
+            for (int i = 0; i < recipe.foodItems.Length; i++)
             {
                 CreateInventorySlot();
             }
-
+            
             for (int i = 0; i < inventory.Count; i++)
             {
+                //TODO: Figure out why icons aren't changing when using the commented out code below
+                //inventorySlots[i].icon.sprite = recipe.foodItems[i].icon;
                 inventorySlots[i].DrawSlot(inventory[i]);
-                invSlot.slotID++;
             }
-
-            foreach (var item in recipe.items)
-            {
-                //add to ui i element
-            }
+            
         }
 
         void CreateInventorySlot()
