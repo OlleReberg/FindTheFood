@@ -5,5 +5,6 @@ public class ItemDataSO : ScriptableObject
 {
     public string displayName;
     public Sprite icon;
+    public Sprite greyedOutIcon;
     public int iD;
 }

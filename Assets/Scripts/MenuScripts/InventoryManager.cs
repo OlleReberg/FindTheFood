@@ -36,7 +36,7 @@ namespace MenuScripts
         {
             ResetInventory();
 
-            for (int i = 0; i < inventorySlots.Capacity; i++)
+            for (int i = 0; i < recipe.items.Length; i++)
             {
                 CreateInventorySlot();
             }
