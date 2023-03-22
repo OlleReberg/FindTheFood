@@ -4308,6 +4308,12 @@ PrefabInstance:
       propertyPath: m_CellSize.y
       value: 53
       objectReference: {fileID: 0}
+    - target: {fileID: 4901923077757863053, guid: 18ccce8b6a756be41a5837253498b77f,
+        type: 3}
+      propertyPath: recipe
+      value: 
+      objectReference: {fileID: 11400000, guid: 1b98d43e90c1b59469023112536d9670,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
