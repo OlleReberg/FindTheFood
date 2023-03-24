@@ -14,7 +14,6 @@ public class InventorySlot : MonoBehaviour
     public void ClearSlot()
     {
         icon.enabled = false;
-       // labelText.enabled = false;
     }
 
     public void DrawSlot(InventoryItem item)
@@ -26,10 +25,7 @@ public class InventorySlot : MonoBehaviour
         }
 
         icon.enabled = true;
-       // labelText.enabled = true;
         icon.sprite = item.itemData.icon;
-
         icon.material = null;
-        //  labelText.text = item.itemData.displayName;
     }
 }

@@ -9,6 +9,5 @@ namespace DefaultNamespace
     {
         public ItemDataSO[] foodItems;
         private Object[] recipes;
-        //public InventoryItem[] items;
     }
 }
