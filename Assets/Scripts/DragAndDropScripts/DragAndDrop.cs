@@ -43,23 +43,15 @@ public class DragAndDrop : MonoBehaviour, ICollectible
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit rayHit;
-        Vector3 screenPos = Camera.main.WorldToScreenPoint(transform.position);
-        
+
         if (Physics.Raycast(ray, out rayHit)) 
         {
-            if (rayHit.collider.CompareTag("DropArea") && CompareTag("Healthy"))
-            {
-                    transform.SetParent(rayHit.transform);
-                    transform.position = (rayHit.transform.position);
-            }
-            else if (CompareTag("Unhealthy"))
+            if (CompareTag("Unhealthy"))
             {
                 transform.position = startPosition;
                 transform.rotation = startRotation;
             }
         }
-        
-        
     }
     public void Collect()
     {

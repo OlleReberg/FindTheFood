@@ -17,6 +17,7 @@ public class FoodChecker : MonoBehaviour
             Debug.Log("Healthy Food");
             if (collectible != null)
             {
+                Debug.Log("Collected " + other.gameObject);
                 collectible.Collect();
             }
             
