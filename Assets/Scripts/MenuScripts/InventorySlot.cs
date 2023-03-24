@@ -7,7 +7,9 @@ using UnityEngine.UI;
 public class InventorySlot : MonoBehaviour
 {
     public Image icon;
-  //  public TextMeshProUGUI labelText;
+    //  public TextMeshProUGUI labelText;
+
+    public Material DefaultMaterial;
 
     public void ClearSlot()
     {
@@ -26,6 +28,8 @@ public class InventorySlot : MonoBehaviour
         icon.enabled = true;
        // labelText.enabled = true;
         icon.sprite = item.itemData.icon;
-      //  labelText.text = item.itemData.displayName;
+
+        icon.material = null;
+        //  labelText.text = item.itemData.displayName;
     }
 }
