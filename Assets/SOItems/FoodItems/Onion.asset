@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Onion
   m_EditorClassIdentifier: 
   displayName: Red Onion
-  icon: {fileID: 21300000, guid: a102176ffe6e2ac469d313c9d9c5a388, type: 3}
+  icon: {fileID: 21300000, guid: 25b02f7906dac04418c862b10f61265e, type: 3}

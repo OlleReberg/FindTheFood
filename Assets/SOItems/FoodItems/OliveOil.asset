@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: OliveOil
   m_EditorClassIdentifier: 
   displayName: Olive Oil
-  icon: {fileID: 21300000, guid: e5600378dd761e64d9423790c482bf36, type: 3}
-  iD: 2
+  icon: {fileID: 21300000, guid: 9004a69df40da7047a65b4e67f570566, type: 3}
