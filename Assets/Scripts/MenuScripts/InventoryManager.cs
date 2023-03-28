@@ -49,11 +49,16 @@ namespace MenuScripts
 
             for (int i = 0; i < inventory.Count; i++)
             {
-                //TODO: Figure out why icons aren't changing when using the commented out code below
-                //inventorySlots[i].icon.sprite = recipe.foodItems[i].icon;
-                inventorySlots[i].DrawSlot(inventory[i]);
+               
+                for (int u = 0; u < recipe.foodItems.Length; u++)
+                {
+                    if (inventorySlots[u].itemData == inventory[i].itemData)
+                    {
+                        inventorySlots[u].DrawSlot(inventory[i]);
+                    }
+                    
+                }
             }
-            
         }
 
         void CreateInventorySlot(ItemDataSO aFoodItem)
@@ -65,6 +70,7 @@ namespace MenuScripts
             //newSlotComponent.ClearSlot();
 
             newSlotComponent.icon.sprite = aFoodItem.icon;
+            newSlotComponent.itemData = aFoodItem;
             //spriteRenderer.material.shader = Shader.Find("Grayscale");
 
             //newSlotComponent.icon.material.shader = Shader.Find("Grayscale");

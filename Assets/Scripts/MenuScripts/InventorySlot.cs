@@ -11,6 +11,9 @@ public class InventorySlot : MonoBehaviour
 
     public Material DefaultMaterial;
 
+    public ItemDataSO itemData;
+
+
     public void ClearSlot()
     {
         icon.enabled = false;
