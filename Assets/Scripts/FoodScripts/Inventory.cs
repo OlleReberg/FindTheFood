@@ -11,6 +11,11 @@ public class Inventory : MonoBehaviour
     //TODO: uncomment this if we want stackable items:
     //private Dictionary<ItemData, InventoryItem> itemDictionary = new Dictionary<ItemData, InventoryItem>();
 
+    private void Start()
+    {
+        OnInventoryChange?.Invoke(inventory);
+    }
+
     private void OnEnable()
     {
         DragAndDrop.OnFoodCollected += Add;
@@ -21,7 +26,7 @@ public class Inventory : MonoBehaviour
         DragAndDrop.OnFoodCollected -= Add;
     }
 
-    public void Add(ItemData itemData)
+    public void Add(ItemDataSO itemData)
     {
         // if (itemDictionary.TryGetValue(itemData, out InventoryItem item))
         // {
@@ -37,7 +42,7 @@ public class Inventory : MonoBehaviour
         //itemDictionary.Add(itemData, newItem);
     }
 
-    public void Remove(ItemData itemData)
+    public void Remove(ItemDataSO itemData)
     {
         // if (itemDictionary.TryGetValue(itemData, out InventoryItem item))
         // {

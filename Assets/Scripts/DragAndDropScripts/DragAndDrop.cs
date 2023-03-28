@@ -12,8 +12,8 @@ public class DragAndDrop : MonoBehaviour, ICollectible
     public Image image;
 
     public static event HandleFoodCollected OnFoodCollected;
-    public delegate void HandleFoodCollected(ItemData itemData);
-    public ItemData foodData;
+    public delegate void HandleFoodCollected(ItemDataSO itemData);
+    public ItemDataSO foodData;
     public Vector3 startPosition;
     public Quaternion startRotation;
 
@@ -43,23 +43,15 @@ public class DragAndDrop : MonoBehaviour, ICollectible
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit rayHit;
-        Vector3 screenPos = Camera.main.WorldToScreenPoint(transform.position);
-        
+
         if (Physics.Raycast(ray, out rayHit)) 
         {
-            if (rayHit.collider.CompareTag("DropArea") && CompareTag("Healthy"))
-            {
-                    transform.SetParent(rayHit.transform);
-                    transform.position = (rayHit.transform.position);
-            }
-            else if (CompareTag("Unhealthy"))
+            if (CompareTag("Unhealthy"))
             {
                 transform.position = startPosition;
                 transform.rotation = startRotation;
             }
         }
-        
-        
     }
     public void Collect()
     {

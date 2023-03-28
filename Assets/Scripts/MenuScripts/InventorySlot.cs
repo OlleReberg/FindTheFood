@@ -7,12 +7,16 @@ using UnityEngine.UI;
 public class InventorySlot : MonoBehaviour
 {
     public Image icon;
-    public TextMeshProUGUI labelText;
+    //  public TextMeshProUGUI labelText;
+
+    public Material DefaultMaterial;
+
+    public ItemDataSO itemData;
+
 
     public void ClearSlot()
     {
         icon.enabled = false;
-        labelText.enabled = false;
     }
 
     public void DrawSlot(InventoryItem item)
@@ -24,9 +28,7 @@ public class InventorySlot : MonoBehaviour
         }
 
         icon.enabled = true;
-        labelText.enabled = true;
-
         icon.sprite = item.itemData.icon;
-        labelText.text = item.itemData.displayName;
+        icon.material = null;
     }
 }

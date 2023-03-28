@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23b6b41f3c534ebdb959ce9a171b45c0, type: 3}
-  m_Name: Onion
+  m_Name: OliveOil
   m_EditorClassIdentifier: 
-  displayName: Red Onion
-  icon: {fileID: 21300000, guid: a102176ffe6e2ac469d313c9d9c5a388, type: 3}
+  displayName: Olive Oil
+  icon: {fileID: 21300000, guid: 9004a69df40da7047a65b4e67f570566, type: 3}
