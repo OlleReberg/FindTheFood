@@ -35,7 +35,6 @@ public class InventorySlot : MonoBehaviour
         
         icon.material = null;
         
-        labelText.enabled = true;
         labelText.text = item.itemData.displayName;
     }
 }
