@@ -71,6 +71,7 @@ namespace MenuScripts
 
             newSlotComponent.icon.sprite = aFoodItem.icon;
             newSlotComponent.itemData = aFoodItem;
+            //newSlotComponent.displayName = aFoodItem.displayName;
             //spriteRenderer.material.shader = Shader.Find("Grayscale");
 
             //newSlotComponent.icon.material.shader = Shader.Find("Grayscale");

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23b6b41f3c534ebdb959ce9a171b45c0, type: 3}
-  m_Name: Tomato
+  m_Name: Pasta
   m_EditorClassIdentifier: 
-  displayName: Tomatoes
-  icon: {fileID: 21300000, guid: 1bb07957634a13c4dab9a9c0ab8247cb, type: 3}
+  displayName: Pasta
+  icon: {fileID: 21300000, guid: 2128899d9b0da9842afefe247e02571e, type: 3}

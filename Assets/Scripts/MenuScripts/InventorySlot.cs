@@ -13,6 +13,8 @@ public class InventorySlot : MonoBehaviour
 
     public ItemDataSO itemData;
 
+    public TextMeshPro displayName;
+
 
     public void ClearSlot()
     {
