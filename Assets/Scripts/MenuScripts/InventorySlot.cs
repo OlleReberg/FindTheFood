@@ -8,9 +8,7 @@ using UnityEngine.UI;
 public class InventorySlot : MonoBehaviour
 {
     public Image icon;
-
     public Material DefaultMaterial;
-
     public ItemDataSO itemData;
 
     public TextMeshProUGUI labelText;
