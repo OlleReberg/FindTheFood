@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using DefaultNamespace;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace MenuScripts
 {
@@ -71,12 +73,8 @@ namespace MenuScripts
 
             newSlotComponent.icon.sprite = aFoodItem.icon;
             newSlotComponent.itemData = aFoodItem;
-            //newSlotComponent.displayName = aFoodItem.displayName;
-            //spriteRenderer.material.shader = Shader.Find("Grayscale");
-
-            //newSlotComponent.icon.material.shader = Shader.Find("Grayscale");
-
-
+            newSlotComponent.labelText.text = aFoodItem.displayName;
+            
             inventorySlots.Add(newSlotComponent);
         }
     }
