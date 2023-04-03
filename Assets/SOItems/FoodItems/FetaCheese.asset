@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23b6b41f3c534ebdb959ce9a171b45c0, type: 3}
   m_Name: FetaCheese
   m_EditorClassIdentifier: 
-  displayName: Fetacheese
+  displayName: Feta Cheese
   icon: {fileID: 21300000, guid: 08208548e185d6747b1056735672d2c0, type: 3}
