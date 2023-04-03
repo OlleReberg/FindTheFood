@@ -478,7 +478,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &169247893
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1641,12 +1641,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a29da5ebaa8faeb42aba436e353f345c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.179
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a29da5ebaa8faeb42aba436e353f345c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.076
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a29da5ebaa8faeb42aba436e353f345c,
         type: 3}
@@ -3052,6 +3052,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Garlic
       objectReference: {fileID: 0}
+    - target: {fileID: 6373868905878808833, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Healthy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8879417575254096475, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: foodData
+      value: 
+      objectReference: {fileID: 11400000, guid: 8fcc4a59375fa844d9c41ad08b3757e5,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -3265,6 +3276,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cheese
       objectReference: {fileID: 0}
+    - target: {fileID: 6373868905878808833, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Healthy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8879417575254096475, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: foodData
+      value: 
+      objectReference: {fileID: 11400000, guid: f46e466dd4c98aa4cb8708ff032be7b2,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -3715,6 +3737,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spinach
       objectReference: {fileID: 0}
+    - target: {fileID: 6373868905878808833, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Healthy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8879417575254096475, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: foodData
+      value: 
+      objectReference: {fileID: 11400000, guid: 1b24f577bcf6ff3499a00ac87cb02c67,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -4645,6 +4678,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paasta
       objectReference: {fileID: 0}
+    - target: {fileID: 6373868905878808833, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Healthy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8879417575254096475, guid: 1889c93e212ec7c4da00f2f69644a2e8,
+        type: 3}
+      propertyPath: foodData
+      value: 
+      objectReference: {fileID: 11400000, guid: 358b1eb4b55bf6e4886e266762ecdcc9,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5362,7 +5406,7 @@ PrefabInstance:
     - target: {fileID: 4139522661777474450, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.931
+      value: 1.743
       objectReference: {fileID: 0}
     - target: {fileID: 4139522661777474450, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
@@ -5422,7 +5466,7 @@ PrefabInstance:
     - target: {fileID: 4528984395216503284, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
       propertyPath: m_Size.y
-      value: 0.7
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4528984395216503284, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
@@ -5432,7 +5476,7 @@ PrefabInstance:
     - target: {fileID: 4528984395216503284, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6373868905878808833, guid: 1889c93e212ec7c4da00f2f69644a2e8,
         type: 3}
