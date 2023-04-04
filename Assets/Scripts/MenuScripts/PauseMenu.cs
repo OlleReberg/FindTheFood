@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,8 +9,10 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     public GameObject gameHUD;
+    
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (GameIsPaused)
