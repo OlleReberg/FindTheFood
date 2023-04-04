@@ -1,5 +1,7 @@
 ﻿using DefaultNamespace;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(menuName = "ScriptableObjects/FoodItems",fileName = "NewFood")]
 public class ItemDataSO : ScriptableObject

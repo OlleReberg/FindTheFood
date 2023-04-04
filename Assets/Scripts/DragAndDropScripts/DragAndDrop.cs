@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class DragAndDrop : MonoBehaviour, ICollectible
 {
     Vector3 mousPosition;
-    public Image image;
+    private Image image;
 
     public static event HandleFoodCollected OnFoodCollected;
     public delegate void HandleFoodCollected(ItemDataSO itemData);
