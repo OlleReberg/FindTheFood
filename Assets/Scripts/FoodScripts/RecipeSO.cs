@@ -10,5 +10,6 @@ namespace DefaultNamespace
         [SerializeField] private Sprite recipeSprite;
         public ItemDataSO[] foodItems;
         private Object[] recipes;
+        public bool recipeUnlocked = false;
     }
 }

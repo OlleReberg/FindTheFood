@@ -18,6 +18,7 @@ namespace MenuScripts
         private SpriteRenderer spriteRenderer;
 
         public GameObject RecipeMenu;
+        public GameObject CompletionPanel;
         public GameObject CompletionText;
         public GameObject IngredientList;
 
@@ -71,10 +72,11 @@ namespace MenuScripts
             {
                 //wawa turn on recipe menu again
 
-                RecipeMenu.SetActive(true);
+                CompletionPanel.SetActive(true);
                 CompletionText.SetActive(true);
                 IngredientList.SetActive(false);
-                
+                recipe.recipeUnlocked = true;
+
             }
         }
 
