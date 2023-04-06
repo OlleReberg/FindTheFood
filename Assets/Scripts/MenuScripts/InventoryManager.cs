@@ -17,6 +17,10 @@ namespace MenuScripts
 
         private SpriteRenderer spriteRenderer;
 
+        public GameObject RecipeMenu;
+        public GameObject CompletionText;
+        public GameObject IngredientList;
+
         private void Start()
         {
             Inventory.OnInventoryChange += DrawInventory;
@@ -60,6 +64,17 @@ namespace MenuScripts
                     }
                     
                 }
+            }
+
+
+            if (inventory.Count == recipe.foodItems.Length)
+            {
+                //wawa turn on recipe menu again
+
+                RecipeMenu.SetActive(true);
+                CompletionText.SetActive(true);
+                IngredientList.SetActive(false);
+                
             }
         }
 

@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
     public Text TimerTxt;
     private void Start()
     {
-        timerIsRunning = true;
+        //timerIsRunning = true;
     }
 
     void Update()
@@ -46,5 +46,22 @@ public class Timer : MonoBehaviour
         TimerTxt.text = string.Format("{0:00} : {1:00}", minutes, seconds);
     }
 
+    public void pauseUnpause()
+    {
+        if (timerIsRunning)
+        {
+            timerIsRunning = false;
+        }
+        else if (!timerIsRunning)
+        {
+            timerIsRunning = true;
+        }
+        
+    }
 
+    public void StartTimer()
+    {
+        timerIsRunning = true;
+
+    }
 }
