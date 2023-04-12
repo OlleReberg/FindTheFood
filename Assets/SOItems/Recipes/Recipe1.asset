@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f56513ba1194b93a74e84f0adf7a30b, type: 3}
   m_Name: Recipe1
   m_EditorClassIdentifier: 
-  recipeSprite: {fileID: 0}
+  recipeSprite: {fileID: 21300000, guid: 4e86dc357d95de544a0fdc4ba9a61272, type: 3}
   foodItems:
   - {fileID: 11400000, guid: 358b1eb4b55bf6e4886e266762ecdcc9, type: 2}
   - {fileID: 11400000, guid: 1b24f577bcf6ff3499a00ac87cb02c67, type: 2}
@@ -21,3 +21,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8fcc4a59375fa844d9c41ad08b3757e5, type: 2}
   - {fileID: 11400000, guid: dc1c73a9181dd38449cf14e4a05aa0da, type: 2}
   recipeUnlocked: 1
+  recipeName: Sgapetthi
