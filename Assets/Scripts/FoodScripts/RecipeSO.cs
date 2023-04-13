@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using Object = System.Object;
+using UnityEngine.UI;
+
 
 namespace DefaultNamespace
 {
@@ -12,5 +14,9 @@ namespace DefaultNamespace
         private Object[] recipes;
         public bool recipeUnlocked = false;
         public string recipeName;
+
+        public string recipeInstructions;
+        public string recipeIngredients;
+
     }
 }
