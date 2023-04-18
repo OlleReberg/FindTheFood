@@ -13,6 +13,11 @@ MonoBehaviour:
   m_Name: Recipe3
   m_EditorClassIdentifier: 
   recipeSprite: {fileID: 21300000, guid: 5aa02e5c6899a0a4fa084cd99ba36397, type: 3}
-  foodItems: []
+  foodItems:
+  - {fileID: 11400000, guid: 502f682b9eaba3740a0aaaf3f73f791c, type: 2}
+  - {fileID: 11400000, guid: dc1c73a9181dd38449cf14e4a05aa0da, type: 2}
+  - {fileID: 11400000, guid: 8b56861119997844481d95dd5d86abba, type: 2}
   recipeUnlocked: 0
   recipeName: Salad
+  recipeInstructions: 
+  recipeIngredients: (Note) Add ingredients suggested in recipe
