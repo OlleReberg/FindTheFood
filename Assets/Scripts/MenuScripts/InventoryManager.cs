@@ -66,8 +66,6 @@ namespace MenuScripts
                     
                 }
             }
-
-
             if (inventory.Count == recipe.foodItems.Length)
             {
                 //wawa turn on recipe menu again
