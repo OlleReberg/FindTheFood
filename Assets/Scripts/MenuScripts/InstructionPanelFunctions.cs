@@ -11,9 +11,7 @@ namespace MenuScripts
     {
         public Image RecipeImage;
         public GameObject InstructionText;
-        public TextMeshPro IngredientText;
-        public Text wawa; 
-
+        public GameObject IngredientText;
         public RecipeSO recipe;
 
 
@@ -21,11 +19,11 @@ namespace MenuScripts
         {
             recipe = recipeSO;
 
-            RecipeImage.sprite = recipeSO.recipeSprite;
+            RecipeImage.sprite = recipe.recipeSprite;
 
-           InstructionText.GetComponent<TextMeshPro>().text = recipeSO.recipeInstructions;
+            InstructionText.GetComponent<TextMeshPro>().text = recipe.recipeInstructions;
 
-            IngredientText.text = recipeSO.recipeIngredients;
+            IngredientText.GetComponentInChildren<TextMeshPro>().text = recipe.recipeIngredients;
 
         }
 

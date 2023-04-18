@@ -12,8 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f56513ba1194b93a74e84f0adf7a30b, type: 3}
   m_Name: Recipe2
   m_EditorClassIdentifier: 
-  recipeSprite: {fileID: 21300000, guid: 273fb0141184540438910bb20fd9c85d, type: 3}
+  recipeSprite: {fileID: 21300000, guid: fd578a62a6e0b42409354626515674bb, type: 3}
   foodItems:
-  - {fileID: 11400000, guid: 8b56861119997844481d95dd5d86abba, type: 2}
+  - {fileID: 11400000, guid: 4acae6bd0334880488df34ec8e548cd8, type: 2}
+  - {fileID: 11400000, guid: eab6172529b1caf4c82c37975f938e83, type: 2}
+  - {fileID: 11400000, guid: 3a51036eb2a13344f8b3ae75a3921f13, type: 2}
+  - {fileID: 11400000, guid: 62150da2c69be6a46837b5f64514d660, type: 2}
+  - {fileID: 11400000, guid: 611171dfa04170a4697736f35c637592, type: 2}
   recipeUnlocked: 0
-  recipeName: Appel
+  recipeName: Banana Pancakes
+  recipeInstructions: 
+  recipeIngredients: 
