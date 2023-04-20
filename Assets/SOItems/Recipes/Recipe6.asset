@@ -16,3 +16,22 @@ MonoBehaviour:
   foodItems: []
   recipeUnlocked: 0
   recipeName: Onion Soup
+  recipeInstructions: 
+  recipeIngredients: '2 large sweet onions
+
+
+    1 tablespoon olive oil
+
+
+    3
+    cloves or garlic, minced
+
+
+    1 Chicken/Beef Bouillon cube
+
+
+    1 Bayleaf
+    & 1 pinch of Thyme
+
+
+    1 Cheese Topping'

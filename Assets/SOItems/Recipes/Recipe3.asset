@@ -16,8 +16,11 @@ MonoBehaviour:
   foodItems:
   - {fileID: 11400000, guid: 502f682b9eaba3740a0aaaf3f73f791c, type: 2}
   - {fileID: 11400000, guid: dc1c73a9181dd38449cf14e4a05aa0da, type: 2}
-  - {fileID: 11400000, guid: 8b56861119997844481d95dd5d86abba, type: 2}
+  - {fileID: 11400000, guid: 82257e22aa20f9c4f901c4edf8aea969, type: 2}
+  - {fileID: 11400000, guid: f8770fdc7226aa14490c9bf99e0032bc, type: 2}
+  - {fileID: 11400000, guid: 8c490c644e6f08f4685fb14a051747e9, type: 2}
   recipeUnlocked: 0
   recipeName: Salad
   recipeInstructions: 
-  recipeIngredients: (Note) Add ingredients suggested in recipe
+  recipeIngredients: "2-3 Clementines  \n2 Avocados\n2 Chicken fil\xE9s  \n1 bag
+    of saladmix  \n1 big tomato  \n1 tablespoon of Olive Oil "

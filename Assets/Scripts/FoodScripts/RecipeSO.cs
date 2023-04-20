@@ -16,6 +16,7 @@ namespace DefaultNamespace
         public string recipeName;
 
         public string recipeInstructions;
+        [TextArea(15,20)]
         public string recipeIngredients;
 
     }
